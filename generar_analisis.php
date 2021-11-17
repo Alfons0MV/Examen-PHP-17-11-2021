@@ -1,6 +1,8 @@
 <?php
 
 include 'head.php';
+session_start();
+
 echo'Analisis de las Multas por Radares <mark>(1.5 Puntos)<br><br>
 <table>
   <thead>

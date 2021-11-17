@@ -1,6 +1,7 @@
 <?php
 
 include 'head.php';
+session_start();
 if (isset($_REQUEST['pagar']))
 {
   $fecha= $_REQUEST['fecha_hora'];
